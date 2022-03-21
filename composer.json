@@ -1,0 +1,23 @@
+{
+    "name": "didik20051397040/pemweb1",
+    "description": "Sample library published to packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Didik Wahyudi",
+            "email": "muhammad.20040@mhs.unesa.ac.id"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "didik20051397040\\pemweb1\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
